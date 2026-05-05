@@ -1,5 +1,5 @@
 Tourism-Website
-A responsive tourism website showcasing India’s cultural and historical heritage using HTML, CSS, Bootstrap, and JavaScript.
+A responsive tourism website showcasing India’s cultural and historical heritage using HTML, CSS, Bootstrap.
 
 🌏 WonderIndia – Explore India's Heritage
 
@@ -19,7 +19,6 @@ WonderIndia is a responsive tourism website designed to showcase the cultural, h
 - HTML5
 - CSS3
 - Bootstrap 4
-- JavaScript
 - Google Fonts & Icons
 - Responsive Web Design principles
 
