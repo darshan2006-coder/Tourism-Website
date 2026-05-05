@@ -1,26 +1,60 @@
-Tourism-Website
-A responsive tourism website showcasing India’s cultural and historical heritage using HTML, CSS, Bootstrap.
+🌍 Tourism Website – WonderIndia
 
-🌏 WonderIndia – Explore India's Heritage
+A responsive tourism website showcasing India’s cultural and historical heritage using HTML, CSS, and Bootstrap.
 
-WonderIndia is a responsive tourism website designed to showcase the cultural, historical, and spiritual heritage of India. The project presents famous landmarks with engaging visuals, smooth navigation, and a clean user interface.
+🌐 Live Demo
+
+🚀 Click here to explore the website : https://wonder-india.vercel.app
+
+
+
+
+
+🌏 About WonderIndia
+
+ WonderIndia is a responsive tourism website designed to showcase the cultural, historical, and spiritual heritage of India.
+It highlights famous landmarks with engaging visuals, smooth navigation, and a clean user interface.
+
+
 
 🚀 Features
-- Responsive navigation bar with toggle menu
-- Hero section with call-to-action
-- About section describing the vision of WonderIndia
-- Popular Indian heritage places with images and descriptions
-- Image gallery with lazy loading
-- Contact form UI
-- SEO-friendly meta tags
-- Footer with contact details
+
+* Responsive navigation bar with toggle menu
+* Hero section with call-to-action
+* About section describing the vision of WonderIndia
+* Popular Indian heritage places with images and descriptions
+* Image gallery with lazy loading
+* Contact form UI
+* SEO-friendly meta tags
+* Footer with contact details
+
+
 
 🛠️ Technologies Used
-- HTML5
-- CSS3
-- Bootstrap 4
-- Google Fonts & Icons
-- Responsive Web Design principles
+
+* HTML5
+* CSS3
+* Bootstrap 4
+* Google Fonts & Icons
+* Responsive Web Design principles
 
 
 
+📂 Project Structure
+
+index.html
+tour.css
+images/
+
+
+📌 Future Improvements
+
+* Add booking functionality
+* Integrate backend (Django / Node.js)
+* Add authentication system
+* Improve animations and UI
+
+
+
+Darshan R
+B.Tech CSE (AIML) Student | Full Stack Developer | AI Enthusiast
