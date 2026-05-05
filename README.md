@@ -7,9 +7,6 @@ A responsive tourism website showcasing India’s cultural and historical herita
 🚀 Click here to explore the website : https://wonder-india.vercel.app
 
 
-
-
-
 🌏 About WonderIndia
 
  WonderIndia is a responsive tourism website designed to showcase the cultural, historical, and spiritual heritage of India.
@@ -42,9 +39,9 @@ It highlights famous landmarks with engaging visuals, smooth navigation, and a c
 
 📂 Project Structure
 
-index.html
-tour.css
-images/
+* index.html
+* tour.css
+* images/
 
 
 📌 Future Improvements
@@ -54,7 +51,3 @@ images/
 * Add authentication system
 * Improve animations and UI
 
-
-
-Darshan R
-B.Tech CSE (AIML) Student | Full Stack Developer | AI Enthusiast
