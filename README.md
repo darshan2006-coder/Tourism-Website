@@ -41,7 +41,6 @@ It highlights famous landmarks with engaging visuals, smooth navigation, and a c
 
 * index.html
 * tour.css
-* images/
 
 
 📌 Future Improvements
