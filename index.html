@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WonderIndia</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css"   rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/logo.webp">
+  
 
   <!--SEO Boost-->
 
@@ -42,7 +44,7 @@
 
     <ul class="nav-links">
         <li><a href="#home">Home</a></li>
-        <li><a href="#places">Destinations</a></li>
+        <li><a href="#destinations">Destinations</a></li>
         <li><a href="#packages">Packages</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#about">About</a></li>
@@ -69,7 +71,7 @@
 
     <!--HomeSection-->
 
-            <div class="bg-container" id="home">
+            <div class="bg-container" id="home" data-aos="fade-up">
 
     <div class="hero-content">
 
@@ -137,7 +139,7 @@
 
          <!-- About Section -->
           
-                     <section id="about" class="about-section">
+                     <section id="about" class="about-section" data-aos="fade-right">
                         <div class="about-container">
                           <div class="about-text">
                             <h2>About WonderIndia</h2>
@@ -167,7 +169,7 @@
 
     <!--favouriteplaces-->
               
-<section id="destinations" class="py-5">
+<section id="destinations" class="py-5" data-aos="fade-up">
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="section-title">
@@ -186,7 +188,7 @@
 
 <!-- Why Choose WonderIndia -->
 
-<section class="why-section">
+<section class="why-section" data-aos="zoom-in">
     <div class="section-title">
         <h2>Why Choose WonderIndia?</h2>
         <p>
@@ -227,55 +229,28 @@
     </div>
 </section>
 
-<section class="packages-section" id="packages">
+<!-- Tour Packages -->
 
-    <div class="section-title">
-        <h2>Featured Tour Packages</h2>
-        <p>Choose your next unforgettable journey.</p>
-    </div>
-
-    <div class="packages-grid">
-
-        <!-- Package 1 -->
-        <div class="package-card">
-            <span class="discount-badge">20% OFF</span>
-            <img src="images/taj-mahal.jpg" alt="Golden Triangle">
-            <div class="package-content">
-                <div class="package-rating">
-                    ⭐ 4.9
-                </div>
-                <h3>Golden Triangle Tour</h3>
-                <p>📍 Delhi • Agra • Jaipur</p>
-                <ul class="package-features">
-                    <li>🕒 5 Days / 4 Nights</li>
-                    <li>🏨 Premium Hotel</li>
-                    <li>🍽 Free Breakfast</li>
-                    <li>🚌 AC Transport</li>
-                    <li>👥 Max 6 Travelers</li>
-                </ul>
-                <div class="price-box">
-                    <span class="new-price">₹15,999</span>
-                   <span class="old-price">₹19,999</span>
-                </div>
-                <div class="package-buttons">
-                    <button class="details-btn">
-                        View Details
-                    </button>
-                    <button class="package-book-btn">
-                        Book Package
-                    </button>
-                </div>
-            </div>
+<section id="packages" class="py-5 bg-light"  data-aos="fade-up">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">
+                Tour Packages
+            </h2>
+            <p>
+                Choose the perfect package for your next adventure.
+            </p>
+        </div>
+        <div
+            class="row"
+            id="packageContainer">
         </div>
     </div>
 </section>
 
-
-
-
       <!-- Gallery Section -->
 
-                        <section id="gallery" class="gallery-section">
+                        <section id="gallery" class="gallery-section" data-aos="zoom-in">
                               <h2 class="gallery-heading">Gallery of Wonders</h2>
                               <div class="gallery-container">
                                 <div class="gallery-item">
@@ -297,12 +272,111 @@
                         </section>
 
 
+<!-- Testimonials -->
+
+<section id="testimonials" class="py-5" data-aos="fade-left">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">
+                What Our Travelers Say
+            </h2>
+            <p>
+                Hear from our happy travelers.
+            </p>
+        </div>
+        <div
+            class="row"
+            id="testimonialContainer">
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+
+<section id="faq" class="faq-section" data-aos="fade-up">
+    <div class="faq-header">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to the most common questions about our travel packages.</p>
+    </div>
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">
+                How do I book a package?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Simply choose your favorite package, click Book Now,
+                    and follow the booking process.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I cancel my booking?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Yes. Cancellation policies depend on the selected package.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Do you provide hotel accommodation?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Yes. Most of our tour packages include hotel accommodation.
+                </p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                Are meals included?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                <p>
+                    Meal availability depends on the package you select.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+
+<section id="newsletter" class="newsletter-section" data-aos="fade-up">
+    <div class="newsletter-content">
+        <h2>Stay Updated</h2>
+        <p>
+            Subscribe to our newsletter and get the latest travel offers,
+            exclusive discounts, and destination updates delivered to your inbox.
+        </p>
+        <form class="newsletter-form" id="newsletterForm">
+            <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email address"
+                required
+            >
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+        <p id="newsletterMessage"></p>
+    </div>
+</section>
  
 
 <!-- Contact Section -->
 
 
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section" data-aos="fade-right">
           <div class="contact-container">
             <h2 class="center-text">Get in Touch</h2>
             <form class="contact-form">
@@ -326,7 +400,7 @@
 <!-- Footer Section -->
 
 
-                <footer class="footer-section">
+                <footer class="footer-section" data-aos="fade-up">
                   <div class="footer-container">
                     <h2>WonderIndia</h2>
                     <p>Explore India’s cultural and historical heritage with us. Discover iconic landmarks, hidden gems, and unforgettable experiences.</p>
@@ -340,10 +414,15 @@
               
                   
 
-
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script src="js/destinations.js"></script>
+<script src="js/packages.js"></script>
+<script src="js/testimonials.js"></script>
+<script src="js/faq.js"></script>
+<script src="js/newsletter.js"></script>
 <script src="js/app.js"></script>
+<script src="js/animations.js"></script>
 
 
 

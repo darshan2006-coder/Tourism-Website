@@ -844,5 +844,124 @@ gap:30px;
   }
 }
 
+/* FAQ Section */
 
+.faq-section{
+    padding:90px 10%;
+    background:#f8f9fa;
+}
+.faq-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+.faq-header h2{
+    font-size:42px;
+    margin-bottom:15px;
+    color:#0d3b66;
+}
+.faq-header p{
+    color:#666;
+    font-size:18px;
+}
+.faq-container{
+    max-width:900px;
+    margin:auto;
+}
+.faq-item{
+    background:#fff;
+    margin-bottom:18px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+.faq-question{
+    width:100%;
+    padding:22px;
+    border:none;
+    background:white;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:19px;
+    font-weight:600;
+}
+.faq-question span{
+    font-size:28px;
+    transition:.3s;
+}
+.faq-answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .4s ease;
+}
+.faq-answer p{
+    padding:0 22px 22px;
+    color:#555;
+    line-height:1.8;
+}
+.faq-item.active .faq-answer{
+    max-height:200px;
+}
+.faq-item.active span{
+    transform:rotate(45deg);
+}
+
+/*--Newsletter Section--*/
+
+.newsletter-section{
+    padding:90px 10%;
+    background:linear-gradient(135deg,#0d3b66,#1b4965);
+    color:white;
+    text-align:center;
+}
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+}
+.newsletter-content h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+.newsletter-content p{
+    font-size:18px;
+    line-height:1.8;
+    color:#e5e5e5;
+    margin-bottom:35px;
+}
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+.newsletter-form input{
+    width:420px;
+    max-width:100%;
+    padding:16px 20px;
+    border:none;
+    outline:none;
+    border-radius:50px;
+    font-size:16px;
+}
+.newsletter-form button{
+    padding:16px 35px;
+    border:none;
+    border-radius:50px;
+    background:#f4c542;
+    color:#111;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+.newsletter-form button:hover{
+    background:#ffd95a;
+    transform:translateY(-3px);
+}
+#newsletterMessage{
+    margin-top:25px;
+    font-size:17px;
+    font-weight:600;
+}
 
