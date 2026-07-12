@@ -36,13 +36,6 @@ It highlights famous landmarks with engaging visuals, smooth navigation, and a c
 * Responsive Web Design principles
 
 
-
-📂 Project Structure
-
-* index.html
-* tour.css
-
-
 📌 Future Improvements
 
 * Add booking functionality
